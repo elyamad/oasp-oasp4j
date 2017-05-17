@@ -33,18 +33,6 @@ CREATE TABLE Event(
   CONSTRAINT U_id_datte UNIQUE (id,dateEvent)
   );
 
--- *** Doctor ***
-CREATE TABLE Docteur(
-  id BIGINT NOT NULL AUTO_INCREMENT,
-  modificationCounter INTEGER NOT NULL,
-  nom VARCHAR(255),
-  prenom VARCHAR(255),
-  rpps VARCHAR(255),
-  adeli VARCHAR(255),
-  CONSTRAINT PK_id PRIMARY KEY(id)
-);
-
-
 -- *** Staffmemeber ***
 CREATE TABLE StaffMember(
   id BIGINT NOT NULL AUTO_INCREMENT,
