@@ -173,14 +173,3 @@ CREATE TABLE RevInfo(
   timestamp BIGINT NOT NULL,
   user VARCHAR(255)
 );
-
--- *** Doctor ***
-CREATE TABLE Docteur(
-  id BIGINT NOT NULL AUTO_INCREMENT,
-  modificationCounter INTEGER NOT NULL,
-  nom VARCHAR(255),
-  prenom VARCHAR(255),
-  rpps VARCHAR(255),
-  adeli VARCHAR(255),
-  PRIMARY KEY (ID)
-);
